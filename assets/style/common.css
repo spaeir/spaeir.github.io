@@ -81,7 +81,7 @@ ul, li { list-style: none; }
 #navi_open:checked + #header #menu:after { width: 30px; background-color: #171717; transform: rotateZ(45deg); position: absolute; top: 24px; left: 8px;}
 #navi_open:checked + #header #menu:before { transform: rotateZ(-45deg) }
 #navi_open:checked + #header #menu .navigator .depth1 {}
-#navi_open:checked + #header .active-menu { width: 100%; height: calc(100% - 152px); display: block; background-color: #fff; position: absolute; top: 152px; left: 0; border-top: 1px solid #363636; overflow-y: auto;}
+#navi_open:checked + #header .active-menu { width: 100%; display: block; background-color: #fff; position: absolute; top: 152px; left: 0; border-top: 1px solid #363636; overflow-y: auto;}
 #navi_open:checked + #header .active-menu .navigator .depth1 > li { display: flex; flex-direction: column;}
 #navi_open:checked + #header .active-menu .navigator .depth1 > li > a { height: 54px; font-family: arita-m; font-size: 18px; color: #333; padding: 0 15px 0 25px; display: inherit; flex-grow: 1; align-items: center; border-bottom: 1px solid #e8e8e8;}
 #navi_open:checked + #header .active-menu .navigator .depth1 > li.has-menu { position: relative; }
