@@ -133,3 +133,8 @@ ul, li { list-style: none; }
 #layer-popup .popup .info-list li:first-child { border-top: 2px solid #666; }
 #layer-popup .popup .info-list li h2 { font-size: 15px; color: #666; margin-bottom: 8px; }
 #layer-popup .popup .info-list li .desc {font-size: 13px; color: #010101;}
+
+@media screen and ( min-width: 641px ) {
+	body { width: 640px; margin: 0 auto; }
+	#header { width: 640px; left: 50%; transform: translateX(-50%); }
+}
