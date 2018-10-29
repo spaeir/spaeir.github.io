@@ -100,7 +100,7 @@
 
 .dib {}
 .dib .scroll-slide {}
-.dib .scroll-slide .slide { height: 100vh; box-sizing: border-box; padding-top: 110px; color: #fff; padding-left: 32px; padding-right: 32px;}
+.dib .scroll-slide .slide { height: 100vh; box-sizing: border-box; padding-top: 110px; color: #fff; padding-left: 32px; padding-right: 32px; background-repeat: no-repeat; background-size: cover; }
 .dib .scroll-slide .slide.slide01 { background-image: url(../images/sub/dib_bg01.jpg); }
 .dib .scroll-slide .slide.slide02 { background-image: url(../images/sub/dib_bg02.jpg); }
 .dib .scroll-slide .slide.slide03 { background-image: url(../images/sub/dib_bg03.jpg); }
